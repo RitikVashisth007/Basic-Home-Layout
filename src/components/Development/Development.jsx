@@ -2,7 +2,11 @@ import React from 'react'
 import { MainContainer , SingleGrid , GridSection } from './DevelopmentStyled'
 import WebImage from '../../assets/web.png'
 import NativeImage from '../../assets/native.png'
-import App from '../../assets/app.svg'
+import App from '../../assets/web.png'
+
+import Content from '../../assets/content.png'
+import Arrow from '../../assets/arrow.png'
+import Digital from '../../assets/digital.png'
 
 function Development() {
     return (
@@ -18,7 +22,7 @@ function Development() {
                     </SingleGrid>
                     <SingleGrid>
                         <img src={NativeImage} alt="" />
-                        <h5>NATIVE MOBILE DEVELOPMENT</h5>
+                        <h5>NATIVE MOBILE  DEVELOPMENT</h5>
                     </SingleGrid>
                     <SingleGrid>
                         <img src={WebImage} alt="" />
@@ -33,16 +37,16 @@ function Development() {
             </div>
             <GridSection  >
                     <SingleGrid>
-                        <img src={App} alt="" />
-                        <h5>WEB SERVICES</h5>
+                        <img src={Arrow} alt="" />
+                        <h5>POST RELEASE <br /> UPDATE</h5>
                     </SingleGrid>
                     <SingleGrid>
-                        <img src={NativeImage} alt="" />
-                        <h5>NATIVE MOBILE DEVELOPMENT</h5>
+                        <img src={Content} alt="" />
+                        <h5>CONTENT <br /> MANAGEMENT</h5>
                     </SingleGrid>
                     <SingleGrid>
-                        <img src={WebImage} alt="" />
-                        <h5>HYBRID MOBILE DEVELOPMENT</h5>
+                        <img src={Digital} alt="" />
+                        <h5>DIGITAL <br /> MARKETING</h5>
                     </SingleGrid>
                 </GridSection>
 
